@@ -1,0 +1,10 @@
+To: bnigno@gmail.com
+Subject: Nova mensagem.
+De: lojasfabilar@gmail.com
+
+Aqui está o que foi enviado:
+
+name: Felipe Benigno de Carvalho
+email: lojasfabilar@gmail.com
+message: testetestetste
+
