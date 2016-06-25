@@ -442,7 +442,7 @@ label {
 }
 
 .list-unstyled > li > a {
-    color: black;
+    color: white;
 }
 
 .list-unstyled.bordered li + li {

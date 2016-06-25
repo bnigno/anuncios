@@ -55,7 +55,7 @@
 	                    </div>
 	                </div>    
 		        </form>
-		        <p class="text-theme-lg subtitle-404"><b>Página destinada a maiores de 18 anos.</b><br>Nosso site é uma revista online, não intermediamos nenhum contato com a acompanhantes aqui anunciadas. Você deverá entrar em contato diretamente com o telefone das acompanhantes.</p>
+		        <p class="text-theme-lg subtitle-404"><b>Página destinada a maiores de 18 anos.</b><br>Nosso site é uma revista online. Não intermediamos nenhum contato com as acompanhantes aqui anunciadas. O mesmo deverá ser feito utilizando os números de telefone que constam nos anúncios.</p>
 		        <div class="row">
 		          <div class="col-sm-12">
 		            <div id="google_translate_element" class="text-theme"></div><script type="text/javascript">

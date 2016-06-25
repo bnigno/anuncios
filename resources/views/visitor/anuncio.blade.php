@@ -160,51 +160,7 @@
         </div>
         @endif
       </div>
-      <div class="col-sm-3 grid-sidebar">
-        <div class="row-heading row-heading-mt-40">
-          <div class="col-sm-12">
-            <h3 class="title-sm text-uppercase hr-left text-theme">Traduzir</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <div id="google_translate_element" class="text-theme"></div><script type="text/javascript">
-            function googleTranslateElementInit() {
-              new google.translate.TranslateElement({pageLanguage: 'pt'}, 'google_translate_element');
-            }
-            </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-          </div>
-        </div>
-        @if (isset($partners))
-          <div class="row-heading row-heading-mt-40">
-            <div class="col-sm-12">
-              <h3 class="title-sm text-uppercase hr-left text-theme">Publicidade</h3>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12">
-              @forelse ($partners as $partner)
-                <a href="{{$partner->site}}">
-                  <img class="img-responsive img-sidebar-sm" src="{{url('img/'.$partner->banner.'?w=110&h=200&fit=contain')}}" alt="{{$partner->name}}">
-                </a>
-              @empty
-              @endforelse
-              <P>a</P>
-              <P>a</P>
-              <P>a</P>
-              <P>a</P>
-              <P>a</P>
-              <P>a</P>
-              <P>a</P>
-              <P>a</P>
-              <P>a</P>
-              <P>a</P>
-              <P>a</P>
-              <P>a</P>
-            </div>
-          </div>
-        @endif
-      </div>
+      @include('visitor.sidebar')
     </div>
   </div>
 </div>
