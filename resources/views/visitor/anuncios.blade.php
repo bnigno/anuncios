@@ -61,7 +61,7 @@
       
         <div class="row">
           <div class="col-md-10">
-            <h3 class="title-xl hr-left text-uppercase">Novas Gatas</h3>
+            <h3 class="title-xl hr-left text-uppercase">Novidades</h3>
               <div id="container-mixitup">
                 <div class="row">
                   @foreach ($times as $time)
@@ -82,7 +82,7 @@
 
         <div class="row">
           <div class="col-md-10">
-            <h3 class="title-xl hr-left text-uppercase">Nossas Gatas</h3>
+            <h3 class="title-xl hr-left text-uppercase">Catálogo</h3>
             <div id="container-mixitup">
               <div class="row">
                 @foreach ($names as $name)

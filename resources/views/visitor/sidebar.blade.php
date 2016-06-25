@@ -23,7 +23,11 @@
       <div class="col-sm-12">
 
           <a href="/">
-            <img class="img-responsive " src="{{url('img/d3542f23b2309495325876e768fb8b40b9261fce.jpg'.'??w=230&h=385&fit=stretch')}}" alt="" style="margin: auto;">
+            <img class="img-responsive" src="{{url('img/d3542f23b2309495325876e768fb8b40b9261fce.jpg'.'??w=230&h=385&fit=stretch')}}" alt="" style="margin: auto;">
+          </a>
+          <br>
+          <a href="/">
+            <img class="img-responsive" src="{{url('img/d3542f23b2309495325876e768fb8b40b9261fce.jpg'.'??w=230&h=385&fit=stretch')}}" alt="" style="margin: auto;">
           </a>
 
       </div>

@@ -51,8 +51,8 @@
 
 @if ($partner->banner === "")
     <div class="row">
-            <div class="col-md-2">
-                <p><b>Enviar imagem do banner:</b></p>
+            <div class="col-md-6">
+                <p><b>Enviar imagem do banner (230x385 px):</b></p>
                 <div class="container">
                     <div class="dropzone" id="banner">
                     </div>
