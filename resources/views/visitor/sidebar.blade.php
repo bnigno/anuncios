@@ -13,7 +13,6 @@
       </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </div>
   </div>
-  @if (isset($partners))
     <div class="row-heading row-heading-mt-40">
       <div class="col-sm-12">
         <h3 class="title-sm text-uppercase hr-left text-theme">Publicidade</h3>
@@ -32,5 +31,4 @@
 
       </div>
     </div>
-  @endif
 </div>

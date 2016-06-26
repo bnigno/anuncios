@@ -173,7 +173,7 @@ input,
 select,
 textarea {
     line-height: 1.6;
-    background-color: black;
+    background-color: #171717;;
 }
 
 a {
@@ -6132,8 +6132,8 @@ a .fa-round:hover {
     width: 100%;
     height: auto;
     /* Fallback for web browsers that don't support RGBa */
-    background-color: #000;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: #171717;
+    background-color: rgba(23, 23, 23);
     /* For IE 8*/
 
     -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=90)';
@@ -6752,8 +6752,8 @@ a .fa-round:hover {
 }
 
 .grid-sidebar {
-    padding: 40px 30px;
-    border: solid 1px #5d5b5b;
+    padding: 0px 30px;
+    /*border: solid 1px #5d5b5b;*/
 }
 
 .grid-sidebar > .row + .row {
