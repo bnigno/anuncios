@@ -15,16 +15,24 @@
   </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+
 <!--SECTION -->
 <!--===============================================================-->
-<div class="section">
-  <div class="container">
-    <div class="row" id="progress-bar-count">
-      <div class="col-md-10">
-        {!!isset($terms->terms) ? $terms->terms : ''!!}
-        {!!isset($terms->advertise) ? $terms->advertise : ''!!}
+      <div class="section">
+        <div class="container">
+          <div class="row" id="progress-bar-count">
+            <div class="col-md-9">
+              {!!isset($terms->terms) ? $terms->terms : ''!!}
+              {!!isset($terms->advertise) ? $terms->advertise : ''!!}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    @include('visitor.sidebar')
   </div>
-</div>  
+</div>   
 @endsection
