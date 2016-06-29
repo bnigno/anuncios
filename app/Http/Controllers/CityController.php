@@ -96,7 +96,7 @@ class CityController extends Controller
         $city->where('id',$id)
                 ->update(['name'=>$city->name]);
 
-        return redirect("city");
+        return redirect('admin/city');
     }
 
     /**
@@ -109,7 +109,7 @@ class CityController extends Controller
     {
         $city = City::find($id);
         $city::where('id',$id)->delete();
-        return redirect('city')->with('status', 'Cidade excluída com sucesso.');
+        return redirect('admin/city')->with('status', 'Cidade excluída com sucesso.');
     }
 
     public function validateData($request){
